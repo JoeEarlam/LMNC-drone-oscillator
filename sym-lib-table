@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name droneoscillator-rescue)(type Legacy)(uri ${KIPRJMOD}/droneoscillator-rescue.lib)(options "")(descr ""))
+)
