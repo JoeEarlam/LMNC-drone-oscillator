@@ -43,7 +43,7 @@ L droneoscillator-rescue:POT RV1
 U 1 1 5B23B79E
 P 2750 1750
 F 0 "RV1" H 2550 1800 50  0000 C CNN
-F 1 "10K" H 2550 1700 50  0000 C CNN
+F 1 "100K" H 2550 1700 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Alps_RK097_Single_Vertical" H 2750 1750 50  0001 C CNN
 F 3 "" H 2750 1750 50  0001 C CNN
 	1    2750 1750
@@ -87,7 +87,7 @@ L droneoscillator-rescue:CP_Small C1
 U 1 1 5B23BF49
 P 2150 2250
 F 0 "C1" H 2160 2320 50  0000 L CNN
-F 1 "10u" H 2160 2170 50  0000 L CNN
+F 1 "2u2" H 2160 2170 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 2150 2250 50  0001 C CNN
 F 3 "" H 2150 2250 50  0001 C CNN
 	1    2150 2250
@@ -120,7 +120,7 @@ L droneoscillator-rescue:POT RV3
 U 1 1 5B2B741F
 P 7250 1750
 F 0 "RV3" H 7100 1800 50  0000 C CNN
-F 1 "10K" H 7100 1700 50  0000 C CNN
+F 1 "100K" H 7100 1700 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Alps_RK097_Single_Vertical" H 7250 1750 50  0001 C CNN
 F 3 "" H 7250 1750 50  0001 C CNN
 	1    7250 1750
@@ -164,7 +164,7 @@ L droneoscillator-rescue:CP_Small C5
 U 1 1 5B2B7440
 P 4500 2250
 F 0 "C5" H 4510 2320 50  0000 L CNN
-F 1 "10u" H 4510 2170 50  0000 L CNN
+F 1 "2u2" H 4510 2170 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 4500 2250 50  0001 C CNN
 F 3 "" H 4500 2250 50  0001 C CNN
 	1    4500 2250
@@ -197,7 +197,7 @@ L droneoscillator-rescue:POT RV4
 U 1 1 5B2B764F
 P 9450 1750
 F 0 "RV4" H 9300 1800 50  0000 C CNN
-F 1 "10K" H 9300 1700 50  0000 C CNN
+F 1 "100K" H 9300 1700 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Alps_RK097_Single_Vertical" H 9450 1750 50  0001 C CNN
 F 3 "" H 9450 1750 50  0001 C CNN
 	1    9450 1750
@@ -241,17 +241,17 @@ L droneoscillator-rescue:CP_Small C8
 U 1 1 5B2B7670
 P 6650 2250
 F 0 "C8" H 6660 2320 50  0000 L CNN
-F 1 "10u" H 6660 2170 50  0000 L CNN
+F 1 "2u2" H 6660 2170 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 6650 2250 50  0001 C CNN
 F 3 "" H 6650 2250 50  0001 C CNN
 	1    6650 2250
 	1    0    0    -1  
 $EndComp
-Text Label 3250 1950 0    60   ~ 0
+Text Label 3600 1950 0    60   ~ 0
 OscA
-Text Label 5600 1950 0    60   ~ 0
+Text Label 5925 1950 0    60   ~ 0
 OscB
-Text Label 7750 1950 0    60   ~ 0
+Text Label 8050 1950 0    60   ~ 0
 OscC
 $Comp
 L droneoscillator-rescue:NE5532 U1
@@ -385,7 +385,7 @@ L droneoscillator-rescue:POT RV2
 U 1 1 5B2BC3B3
 P 5100 1750
 F 0 "RV2" V 4925 1750 50  0000 C CNN
-F 1 "10K" V 5000 1750 50  0000 C CNN
+F 1 "100K" V 5000 1750 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Alps_RK097_Single_Vertical" H 5100 1750 50  0001 C CNN
 F 3 "" H 5100 1750 50  0001 C CNN
 	1    5100 1750
@@ -414,17 +414,6 @@ F 3 "" H 4200 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L droneoscillator-rescue:R_Small R6
-U 1 1 5B2BCBD5
-P 3600 5350
-F 0 "R6" H 3630 5370 50  0000 L CNN
-F 1 "1M" H 3630 5310 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 3600 5350 50  0001 C CNN
-F 3 "" H 3600 5350 50  0001 C CNN
-	1    3600 5350
-	-1   0    0    1   
-$EndComp
-$Comp
 L droneoscillator-rescue:+12V #PWR013
 U 1 1 5B2BD416
 P 4100 4900
@@ -438,12 +427,12 @@ $EndComp
 $Comp
 L droneoscillator-rescue:-12VA #PWR014
 U 1 1 5B2BD475
-P 4100 5700
-F 0 "#PWR014" H 4100 5550 50  0001 C CNN
-F 1 "-12VA" H 4100 5840 50  0000 C CNN
-F 2 "" H 4100 5700 50  0001 C CNN
-F 3 "" H 4100 5700 50  0001 C CNN
-	1    4100 5700
+P 4100 5575
+F 0 "#PWR014" H 4100 5425 50  0001 C CNN
+F 1 "-12VA" H 3950 5600 50  0000 C CNN
+F 2 "" H 4100 5575 50  0001 C CNN
+F 3 "" H 4100 5575 50  0001 C CNN
+	1    4100 5575
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -550,13 +539,13 @@ L droneoscillator-rescue:CP_Small C10
 U 1 1 5B2C0B59
 P 8850 2250
 F 0 "C10" H 8860 2320 50  0000 L CNN
-F 1 "10u" H 8860 2170 50  0000 L CNN
+F 1 "2u2" H 8860 2170 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 8850 2250 50  0001 C CNN
 F 3 "" H 8850 2250 50  0001 C CNN
 	1    8850 2250
 	1    0    0    -1  
 $EndComp
-Text Label 9950 1950 0    60   ~ 0
+Text Label 10250 1950 0    60   ~ 0
 OscD
 $Comp
 L droneoscillator-rescue:R_Small R9
@@ -757,11 +746,11 @@ Connection ~ 5300 1950
 Connection ~ 2950 1950
 Connection ~ 7450 1950
 Wire Wire Line
-	3250 1950 3200 1950
+	3600 1950 3500 1950
 Wire Wire Line
-	5600 1950 5550 1950
+	5925 1950 5850 1950
 Wire Wire Line
-	7700 1950 7750 1950
+	7950 1950 8000 1950
 Wire Wire Line
 	2150 5650 2150 5450
 Wire Wire Line
@@ -813,29 +802,17 @@ Wire Wire Line
 Wire Wire Line
 	3300 5150 3300 5250
 Connection ~ 3050 5150
-Wire Wire Line
-	3300 5450 3300 5500
 Connection ~ 3300 5150
 Wire Wire Line
 	3900 5350 3800 5350
 Wire Wire Line
-	3800 5350 3800 5650
+	3800 5350 3800 5775
 Wire Wire Line
-	3800 5650 4600 5650
-Wire Wire Line
-	4600 5650 4600 5250
+	4600 5775 4600 5250
 Wire Wire Line
 	4500 5250 4600 5250
 Wire Wire Line
-	3600 5150 3600 5250
-Connection ~ 3600 5150
-Wire Wire Line
-	3600 5450 3600 5500
-Wire Wire Line
-	3600 5500 3300 5500
-Connection ~ 3300 5500
-Wire Wire Line
-	4100 5700 4100 5550
+	4100 5575 4100 5550
 Connection ~ 4600 5250
 Wire Wire Line
 	4850 5250 5050 5250
@@ -869,7 +846,7 @@ Wire Wire Line
 Connection ~ 9450 2500
 Connection ~ 9650 1950
 Wire Wire Line
-	9900 1950 9950 1950
+	10150 1950 10200 1950
 Wire Wire Line
 	1500 4650 1550 4650
 Connection ~ 1550 4850
@@ -960,45 +937,45 @@ $EndComp
 $Comp
 L droneoscillator-rescue:C_Small C3
 U 1 1 5B2D0571
-P 3100 1950
-F 0 "C3" H 3110 2020 50  0000 L CNN
-F 1 "1u" H 3110 1870 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3100 1950 50  0001 C CNN
-F 3 "" H 3100 1950 50  0001 C CNN
-	1    3100 1950
+P 3350 1950
+F 0 "C3" H 3360 2020 50  0000 L CNN
+F 1 "100n" H 3360 1870 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3350 1950 50  0001 C CNN
+F 3 "" H 3350 1950 50  0001 C CNN
+	1    3350 1950
 	0    1    1    0   
 $EndComp
 $Comp
 L droneoscillator-rescue:C_Small C7
 U 1 1 5B2D065F
-P 5450 1950
-F 0 "C7" H 5460 2020 50  0000 L CNN
-F 1 "1u" H 5460 1870 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5450 1950 50  0001 C CNN
-F 3 "" H 5450 1950 50  0001 C CNN
-	1    5450 1950
+P 5700 1950
+F 0 "C7" H 5710 2020 50  0000 L CNN
+F 1 "100n" H 5710 1870 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5700 1950 50  0001 C CNN
+F 3 "" H 5700 1950 50  0001 C CNN
+	1    5700 1950
 	0    1    1    0   
 $EndComp
 $Comp
 L droneoscillator-rescue:C_Small C9
 U 1 1 5B2D0726
-P 7600 1950
-F 0 "C9" H 7610 2020 50  0000 L CNN
-F 1 "1u" H 7610 1870 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7600 1950 50  0001 C CNN
-F 3 "" H 7600 1950 50  0001 C CNN
-	1    7600 1950
+P 7850 1950
+F 0 "C9" H 7860 2020 50  0000 L CNN
+F 1 "100n" H 7860 1870 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7850 1950 50  0001 C CNN
+F 3 "" H 7850 1950 50  0001 C CNN
+	1    7850 1950
 	0    1    1    0   
 $EndComp
 $Comp
 L droneoscillator-rescue:C_Small C11
 U 1 1 5B2D0A02
-P 9800 1950
-F 0 "C11" H 9810 2020 50  0000 L CNN
-F 1 "1u" H 9810 1870 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 9800 1950 50  0001 C CNN
-F 3 "" H 9800 1950 50  0001 C CNN
-	1    9800 1950
+P 10050 1950
+F 0 "C11" H 10060 2020 50  0000 L CNN
+F 1 "100n" H 10060 1870 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 10050 1950 50  0001 C CNN
+F 3 "" H 10050 1950 50  0001 C CNN
+	1    10050 1950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1036,12 +1013,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 5150 3300 5150
 Wire Wire Line
-	3300 5150 3600 5150
-Wire Wire Line
-	3600 5150 3900 5150
-Wire Wire Line
-	3300 5500 3300 5550
-Wire Wire Line
 	4600 5250 4650 5250
 Wire Wire Line
 	9450 1950 9450 2050
@@ -1065,4 +1036,218 @@ Wire Wire Line
 	8650 4950 8900 4950
 Wire Wire Line
 	8900 4950 9400 4950
+$Comp
+L droneoscillator-rescue:R_Small R?
+U 1 1 5C2FDC7E
+P 3100 1950
+F 0 "R?" H 3130 1970 50  0000 L CNN
+F 1 "100K" H 3130 1910 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 3100 1950 50  0001 C CNN
+F 3 "" H 3100 1950 50  0001 C CNN
+	1    3100 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 1950 3200 1950
+$Comp
+L droneoscillator-rescue:R_Small R?
+U 1 1 5C30BE71
+P 5450 1950
+F 0 "R?" H 5480 1970 50  0000 L CNN
+F 1 "100K" H 5480 1910 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5450 1950 50  0001 C CNN
+F 3 "" H 5450 1950 50  0001 C CNN
+	1    5450 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 1950 5550 1950
+$Comp
+L droneoscillator-rescue:R_Small R?
+U 1 1 5C31A005
+P 7600 1950
+F 0 "R?" H 7630 1970 50  0000 L CNN
+F 1 "100K" H 7630 1910 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 7600 1950 50  0001 C CNN
+F 3 "" H 7600 1950 50  0001 C CNN
+	1    7600 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7700 1950 7750 1950
+$Comp
+L droneoscillator-rescue:R_Small R?
+U 1 1 5C32CF45
+P 9800 1950
+F 0 "R?" H 9830 1970 50  0000 L CNN
+F 1 "100K" H 9830 1910 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9800 1950 50  0001 C CNN
+F 3 "" H 9800 1950 50  0001 C CNN
+	1    9800 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9950 1950 9900 1950
+$Comp
+L droneoscillator-rescue:R_Small R?
+U 1 1 5C33875C
+P 3500 2125
+F 0 "R?" H 3530 2145 50  0000 L CNN
+F 1 "100K" H 3530 2085 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 3500 2125 50  0001 C CNN
+F 3 "" H 3500 2125 50  0001 C CNN
+	1    3500 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2025 3500 1950
+Connection ~ 3500 1950
+Wire Wire Line
+	3500 1950 3450 1950
+$Comp
+L droneoscillator-rescue:GND #PWR?
+U 1 1 5C346E25
+P 3500 2275
+F 0 "#PWR?" H 3500 2025 50  0001 C CNN
+F 1 "GND" H 3500 2125 50  0000 C CNN
+F 2 "" H 3500 2275 50  0001 C CNN
+F 3 "" H 3500 2275 50  0001 C CNN
+	1    3500 2275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2225 3500 2275
+$Comp
+L droneoscillator-rescue:R_Small R?
+U 1 1 5C34C15C
+P 5850 2100
+F 0 "R?" H 5880 2120 50  0000 L CNN
+F 1 "100K" H 5880 2060 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5850 2100 50  0001 C CNN
+F 3 "" H 5850 2100 50  0001 C CNN
+	1    5850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L droneoscillator-rescue:GND #PWR?
+U 1 1 5C34C162
+P 5850 2250
+F 0 "#PWR?" H 5850 2000 50  0001 C CNN
+F 1 "GND" H 5850 2100 50  0000 C CNN
+F 2 "" H 5850 2250 50  0001 C CNN
+F 3 "" H 5850 2250 50  0001 C CNN
+	1    5850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2200 5850 2250
+Wire Wire Line
+	5850 2000 5850 1950
+Connection ~ 5850 1950
+Wire Wire Line
+	5850 1950 5800 1950
+$Comp
+L droneoscillator-rescue:R_Small R?
+U 1 1 5C375937
+P 8000 2100
+F 0 "R?" H 8030 2120 50  0000 L CNN
+F 1 "100K" H 8030 2060 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 8000 2100 50  0001 C CNN
+F 3 "" H 8000 2100 50  0001 C CNN
+	1    8000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L droneoscillator-rescue:GND #PWR?
+U 1 1 5C37593D
+P 8000 2250
+F 0 "#PWR?" H 8000 2000 50  0001 C CNN
+F 1 "GND" H 8000 2100 50  0000 C CNN
+F 2 "" H 8000 2250 50  0001 C CNN
+F 3 "" H 8000 2250 50  0001 C CNN
+	1    8000 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2200 8000 2250
+Wire Wire Line
+	8000 2000 8000 1950
+Connection ~ 8000 1950
+Wire Wire Line
+	8000 1950 8050 1950
+$Comp
+L droneoscillator-rescue:R_Small R?
+U 1 1 5C38B52E
+P 10200 2100
+F 0 "R?" H 10230 2120 50  0000 L CNN
+F 1 "100K" H 10230 2060 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 10200 2100 50  0001 C CNN
+F 3 "" H 10200 2100 50  0001 C CNN
+	1    10200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L droneoscillator-rescue:GND #PWR?
+U 1 1 5C38B534
+P 10200 2250
+F 0 "#PWR?" H 10200 2000 50  0001 C CNN
+F 1 "GND" H 10200 2100 50  0000 C CNN
+F 2 "" H 10200 2250 50  0001 C CNN
+F 3 "" H 10200 2250 50  0001 C CNN
+	1    10200 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 2200 10200 2250
+Wire Wire Line
+	10200 2000 10200 1950
+Connection ~ 10200 1950
+Wire Wire Line
+	10200 1950 10250 1950
+$Comp
+L droneoscillator-rescue:R_Small R?
+U 1 1 5C3B3CEB
+P 4225 5775
+F 0 "R?" H 4255 5795 50  0000 L CNN
+F 1 "10K" H 4255 5735 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 4225 5775 50  0001 C CNN
+F 3 "" H 4225 5775 50  0001 C CNN
+	1    4225 5775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4325 5775 4600 5775
+Wire Wire Line
+	4125 5775 3800 5775
+$Comp
+L droneoscillator-rescue:R_Small R?
+U 1 1 5C3BF4CA
+P 3800 5950
+F 0 "R?" H 3830 5970 50  0000 L CNN
+F 1 "10K" H 3830 5910 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 3800 5950 50  0001 C CNN
+F 3 "" H 3800 5950 50  0001 C CNN
+	1    3800 5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 5850 3800 5775
+Connection ~ 3800 5775
+$Comp
+L droneoscillator-rescue:GND #PWR?
+U 1 1 5C3C5198
+P 3800 6100
+F 0 "#PWR?" H 3800 5850 50  0001 C CNN
+F 1 "GND" H 3800 5950 50  0000 C CNN
+F 2 "" H 3800 6100 50  0001 C CNN
+F 3 "" H 3800 6100 50  0001 C CNN
+	1    3800 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 6100 3800 6050
+Wire Wire Line
+	3300 5450 3300 5550
+Wire Wire Line
+	3300 5150 3900 5150
 $EndSCHEMATC
