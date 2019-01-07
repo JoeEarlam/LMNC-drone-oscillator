@@ -499,7 +499,7 @@ F 1 "100K" V 2750 5150 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Alps_RK097_Single_Vertical" H 2850 5150 50  0001 C CNN
 F 3 "" H 2850 5150 50  0001 C CNN
 	1    2850 5150
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L droneoscillator-rescue:+12V #PWR016
