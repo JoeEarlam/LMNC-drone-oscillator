@@ -44,7 +44,7 @@ U 1 1 5B23B79E
 P 2750 1750
 F 0 "RV1" H 2550 1800 50  0000 C CNN
 F 1 "100K" H 2550 1700 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Alps_RK097_Single_Vertical" H 2750 1750 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal" H 2750 1750 50  0001 C CNN
 F 3 "" H 2750 1750 50  0001 C CNN
 	1    2750 1750
 	1    0    0    1   
@@ -66,7 +66,7 @@ U 1 1 5B23B84C
 P 2750 2700
 F 0 "D1" V 2800 2550 50  0000 C CNN
 F 1 "Red" V 2700 2550 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 2750 2700 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 2750 2700 50  0001 C CNN
 F 3 "" H 2750 2700 50  0001 C CNN
 	1    2750 2700
 	0    -1   -1   0   
@@ -121,7 +121,7 @@ U 1 1 5B2B741F
 P 7250 1750
 F 0 "RV3" H 7100 1800 50  0000 C CNN
 F 1 "100K" H 7100 1700 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Alps_RK097_Single_Vertical" H 7250 1750 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal" H 7250 1750 50  0001 C CNN
 F 3 "" H 7250 1750 50  0001 C CNN
 	1    7250 1750
 	1    0    0    1   
@@ -143,7 +143,7 @@ U 1 1 5B2B7432
 P 5100 2700
 F 0 "D2" H 5100 2800 50  0000 C CNN
 F 1 "Red" H 5100 2600 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 5100 2700 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 5100 2700 50  0001 C CNN
 F 3 "" H 5100 2700 50  0001 C CNN
 	1    5100 2700
 	0    -1   -1   0   
@@ -198,7 +198,7 @@ U 1 1 5B2B764F
 P 9450 1750
 F 0 "RV4" H 9300 1800 50  0000 C CNN
 F 1 "100K" H 9300 1700 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Alps_RK097_Single_Vertical" H 9450 1750 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal" H 9450 1750 50  0001 C CNN
 F 3 "" H 9450 1750 50  0001 C CNN
 	1    9450 1750
 	1    0    0    1   
@@ -220,7 +220,7 @@ U 1 1 5B2B7662
 P 7250 2700
 F 0 "D3" V 7300 2500 50  0000 C CNN
 F 1 "Red" V 7200 2500 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 7250 2700 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 7250 2700 50  0001 C CNN
 F 3 "" H 7250 2700 50  0001 C CNN
 	1    7250 2700
 	0    -1   -1   0   
@@ -386,7 +386,7 @@ U 1 1 5B2BC3B3
 P 5100 1750
 F 0 "RV2" V 4925 1750 50  0000 C CNN
 F 1 "100K" V 5000 1750 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Alps_RK097_Single_Vertical" H 5100 1750 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal" H 5100 1750 50  0001 C CNN
 F 3 "" H 5100 1750 50  0001 C CNN
 	1    5100 1750
 	1    0    0    1   
@@ -496,7 +496,7 @@ U 1 1 5B2C0B38
 P 2850 5150
 F 0 "RV5" V 2675 5150 50  0000 C CNN
 F 1 "100K" V 2750 5150 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Alps_RK097_Single_Vertical" H 2850 5150 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal" H 2850 5150 50  0001 C CNN
 F 3 "" H 2850 5150 50  0001 C CNN
 	1    2850 5150
 	0    1    -1   0   
@@ -518,7 +518,7 @@ U 1 1 5B2C0B4B
 P 9450 2700
 F 0 "D4" V 9500 2550 50  0000 C CNN
 F 1 "Red" V 9400 2550 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 9450 2700 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 9450 2700 50  0001 C CNN
 F 3 "" H 9450 2700 50  0001 C CNN
 	1    9450 2700
 	0    -1   -1   0   

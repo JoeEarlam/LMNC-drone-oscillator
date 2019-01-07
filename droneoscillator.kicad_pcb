@@ -174,7 +174,7 @@
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
     (path /5B2BE4FB)
-    (fp_text reference C4 (at 2.5 -2.2) (layer F.SilkS)
+    (fp_text reference C4 (at 0 2.286) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100n (at 2.5 2.2) (layer F.Fab)
@@ -445,7 +445,7 @@
     (descr "Potentiometer, horizontal, Alps RK097 Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK097/RK097_list.html")
     (tags "Potentiometer horizontal Alps RK097 Single")
     (path /5B2C0B38)
-    (fp_text reference RV5 (at 0 -8.5 180) (layer F.SilkS)
+    (fp_text reference RV5 (at 0 3.469 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100K (at 0 3.5 180) (layer F.Fab)
@@ -491,6 +491,11 @@
     (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK097_Single_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK097_Single_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -548,6 +553,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK097_Single_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal locked (layer F.Cu) (tedit 5A3D4993) (tstamp 5C33FC2F)
@@ -601,6 +611,11 @@
     (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK097_Single_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK097_Single_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -658,6 +673,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK097_Single_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal locked (layer F.Cu) (tedit 5A3D4993) (tstamp 5C33FBE9)
@@ -711,6 +731,11 @@
     (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK097_Single_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK097_Single_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
