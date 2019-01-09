@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# droneoscillator-rescue_+12V
+# droneoscillator-rescue:+12V
 #
-DEF droneoscillator-rescue_+12V #PWR 0 0 Y Y 1 F P
+DEF droneoscillator-rescue:+12V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "droneoscillator-rescue_+12V" 0 140 50 H V C CNN
+F1 "droneoscillator-rescue:+12V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# droneoscillator-rescue_-12VA
+# droneoscillator-rescue:-12VA
 #
-DEF droneoscillator-rescue_-12VA #PWR 0 0 Y Y 1 F P
+DEF droneoscillator-rescue:-12VA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "droneoscillator-rescue_-12VA" 0 140 50 H V C CNN
+F1 "droneoscillator-rescue:-12VA" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -29,11 +29,11 @@ X -12VA 1 0 0 0 U 50 50 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# droneoscillator-rescue_BC337
+# droneoscillator-rescue:BC337
 #
-DEF droneoscillator-rescue_BC337 Q 0 0 Y N 1 F N
+DEF droneoscillator-rescue:BC337 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "droneoscillator-rescue_BC337" 200 0 50 H V L CNN
+F1 "droneoscillator-rescue:BC337" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -52,11 +52,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# droneoscillator-rescue_CP_Small
+# droneoscillator-rescue:CP_Small
 #
-DEF droneoscillator-rescue_CP_Small C 0 10 N N 1 F N
+DEF droneoscillator-rescue:CP_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "droneoscillator-rescue_CP_Small" 10 -80 50 H V L CNN
+F1 "droneoscillator-rescue:CP_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -72,11 +72,11 @@ X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# droneoscillator-rescue_C_Small
+# droneoscillator-rescue:C_Small
 #
-DEF droneoscillator-rescue_C_Small C 0 10 N N 1 F N
+DEF droneoscillator-rescue:C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "droneoscillator-rescue_C_Small" 10 -80 50 H V L CNN
+F1 "droneoscillator-rescue:C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -90,11 +90,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# droneoscillator-rescue_Conn_01x02
+# droneoscillator-rescue:Conn_01x02
 #
-DEF droneoscillator-rescue_Conn_01x02 J 0 40 Y N 1 F N
+DEF droneoscillator-rescue:Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "droneoscillator-rescue_Conn_01x02" 0 -200 50 H V C CNN
+F1 "droneoscillator-rescue:Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -114,11 +114,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# droneoscillator-rescue_Conn_01x03
+# droneoscillator-rescue:Conn_01x03
 #
-DEF droneoscillator-rescue_Conn_01x03 J 0 40 Y N 1 F N
+DEF droneoscillator-rescue:Conn_01x03 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "droneoscillator-rescue_Conn_01x03" 0 -200 50 H V C CNN
+F1 "droneoscillator-rescue:Conn_01x03" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -140,11 +140,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# droneoscillator-rescue_Ferrite_Bead_Small
+# droneoscillator-rescue:Ferrite_Bead_Small
 #
-DEF droneoscillator-rescue_Ferrite_Bead_Small L 0 0 N Y 1 F N
+DEF droneoscillator-rescue:Ferrite_Bead_Small L 0 0 N Y 1 F N
 F0 "L" 75 50 50 H V L CNN
-F1 "droneoscillator-rescue_Ferrite_Bead_Small" 75 -50 50 H V L CNN
+F1 "droneoscillator-rescue:Ferrite_Bead_Small" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -161,11 +161,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# droneoscillator-rescue_GND
+# droneoscillator-rescue:GND
 #
-DEF droneoscillator-rescue_GND #PWR 0 0 Y Y 1 F P
+DEF droneoscillator-rescue:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "droneoscillator-rescue_GND" 0 -150 50 H V C CNN
+F1 "droneoscillator-rescue:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -174,11 +174,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# droneoscillator-rescue_LED
+# droneoscillator-rescue:LED
 #
-DEF droneoscillator-rescue_LED D 0 40 Y N 1 F N
+DEF droneoscillator-rescue:LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "droneoscillator-rescue_LED" 0 -100 50 H V C CNN
+F1 "droneoscillator-rescue:LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -195,11 +195,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# droneoscillator-rescue_NE5532
+# droneoscillator-rescue:NE5532
 #
-DEF droneoscillator-rescue_NE5532 U 0 20 Y Y 2 F N
+DEF droneoscillator-rescue:NE5532 U 0 20 Y Y 2 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "droneoscillator-rescue_NE5532" 0 -200 50 H V L CNN
+F1 "droneoscillator-rescue:NE5532" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -228,11 +228,11 @@ X ~ 7 300 0 100 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
-# droneoscillator-rescue_POT
+# droneoscillator-rescue:POT
 #
-DEF droneoscillator-rescue_POT RV 0 40 N N 1 F N
+DEF droneoscillator-rescue:POT RV 0 40 N N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "droneoscillator-rescue_POT" -100 0 50 V V C CNN
+F1 "droneoscillator-rescue:POT" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -248,11 +248,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# droneoscillator-rescue_R_Small
+# droneoscillator-rescue:R_Small
 #
-DEF droneoscillator-rescue_R_Small R 0 10 N N 1 F N
+DEF droneoscillator-rescue:R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "droneoscillator-rescue_R_Small" 30 -40 50 H V L CNN
+F1 "droneoscillator-rescue:R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
