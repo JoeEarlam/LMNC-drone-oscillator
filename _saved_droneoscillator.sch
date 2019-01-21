@@ -256,12 +256,12 @@ OscC
 $Comp
 L droneoscillator-rescue:NE5532 U1
 U 1 1 5B2BA5DA
-P 2250 5150
-F 0 "U1" H 2250 5350 50  0000 L CNN
-F 1 "NE5532" H 2250 4950 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 2250 5150 50  0001 C CNN
-F 3 "" H 2250 5150 50  0001 C CNN
-	1    2250 5150
+P 4200 5250
+F 0 "U1" H 4200 5450 50  0000 L CNN
+F 1 "NE5532" H 4200 5050 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 4200 5250 50  0001 C CNN
+F 3 "" H 4200 5250 50  0001 C CNN
+	1    4200 5250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -405,12 +405,12 @@ $EndComp
 $Comp
 L droneoscillator-rescue:NE5532 U1
 U 2 1 5B2BCA1D
-P 4200 5250
-F 0 "U1" H 4200 5450 50  0000 L CNN
-F 1 "NE5532" H 4200 5050 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 4200 5250 50  0001 C CNN
-F 3 "" H 4200 5250 50  0001 C CNN
-	2    4200 5250
+P 2250 5150
+F 0 "U1" H 2250 5350 50  0000 L CNN
+F 1 "NE5532" H 2250 4950 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 2250 5150 50  0001 C CNN
+F 3 "" H 2250 5150 50  0001 C CNN
+	2    2250 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -581,28 +581,6 @@ F 2 "" H 9400 5000 50  0001 C CNN
 F 3 "" H 9400 5000 50  0001 C CNN
 	1    9400 5000
 	1    0    0    -1  
-$EndComp
-$Comp
-L droneoscillator-rescue:Ferrite_Bead_Small L1
-U 1 1 5B2C1BEE
-P 9150 4600
-F 0 "L1" V 9200 4700 50  0000 L CNN
-F 1 "786-7068" V 9000 4550 50  0000 L CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 9080 4600 50  0001 C CNN
-F 3 "" H 9150 4600 50  0001 C CNN
-	1    9150 4600
-	0    1    1    0   
-$EndComp
-$Comp
-L droneoscillator-rescue:Ferrite_Bead_Small L2
-U 1 1 5B2C1C92
-P 9150 4700
-F 0 "L2" V 9200 4800 50  0000 L CNN
-F 1 "786-7068" V 9300 4650 50  0000 L CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 9080 4700 50  0001 C CNN
-F 3 "" H 9150 4700 50  0001 C CNN
-	1    9150 4700
-	0    1    1    0   
 $EndComp
 $Comp
 L droneoscillator-rescue:CP_Small C13
@@ -829,10 +807,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 4800 9500 4800
 Wire Wire Line
-	9250 4600 9500 4600
-Wire Wire Line
-	9250 4700 9500 4700
-Wire Wire Line
 	8400 4800 8400 4950
 Connection ~ 9400 4950
 Connection ~ 8900 4700
@@ -929,10 +903,6 @@ Wire Wire Line
 	1550 4850 1550 5050
 Wire Wire Line
 	9400 4950 9400 5000
-Wire Wire Line
-	8900 4700 9050 4700
-Wire Wire Line
-	8400 4600 9050 4600
 Wire Wire Line
 	8900 4950 9400 4950
 $Comp
@@ -1161,4 +1131,8 @@ F 3 "" H 10050 1950 50  0001 C CNN
 	1    10050 1950
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	8400 4600 9500 4600
+Wire Wire Line
+	8900 4700 9500 4700
 $EndSCHEMATC
