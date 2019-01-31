@@ -495,7 +495,7 @@ L droneoscillator-rescue:POT RV5
 U 1 1 5B2C0B38
 P 2850 5150
 F 0 "RV5" V 2675 5150 50  0000 C CNN
-F 1 "100K" V 2750 5150 50  0000 C CNN
+F 1 "50K" V 2750 5150 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal" H 2850 5150 50  0001 C CNN
 F 3 "" H 2850 5150 50  0001 C CNN
 	1    2850 5150
@@ -746,14 +746,7 @@ Connection ~ 2650 5150
 Wire Wire Line
 	2850 5000 2850 4950
 Wire Wire Line
-	2850 4950 3050 4950
-Wire Wire Line
-	3050 4950 3050 5150
-Wire Wire Line
-	3000 5150 3050 5150
-Wire Wire Line
 	3300 5150 3300 5250
-Connection ~ 3050 5150
 Connection ~ 3300 5150
 Wire Wire Line
 	3900 5350 3800 5350
@@ -887,8 +880,6 @@ Wire Wire Line
 	1900 5250 1950 5250
 Wire Wire Line
 	2650 5150 2700 5150
-Wire Wire Line
-	3050 5150 3300 5150
 Wire Wire Line
 	9450 1950 9450 2050
 Wire Wire Line
@@ -1165,4 +1156,13 @@ Wire Wire Line
 Connection ~ 8900 4700
 Wire Wire Line
 	8900 4700 8900 4725
+Connection ~ 3100 5150
+Wire Wire Line
+	3100 5150 3300 5150
+Wire Wire Line
+	3000 5150 3100 5150
+Wire Wire Line
+	2850 4950 3100 4950
+Wire Wire Line
+	3100 4950 3100 5150
 $EndSCHEMATC
