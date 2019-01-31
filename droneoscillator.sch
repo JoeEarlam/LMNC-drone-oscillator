@@ -585,23 +585,23 @@ $EndComp
 $Comp
 L droneoscillator-rescue:CP_Small C13
 U 1 1 5B2C205C
-P 8400 4700
-F 0 "C13" H 8410 4770 50  0000 L CNN
-F 1 "10u" H 8410 4620 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 8400 4700 50  0001 C CNN
-F 3 "" H 8400 4700 50  0001 C CNN
-	1    8400 4700
+P 8400 4725
+F 0 "C13" H 8410 4795 50  0000 L CNN
+F 1 "10u" H 8410 4645 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 8400 4725 50  0001 C CNN
+F 3 "" H 8400 4725 50  0001 C CNN
+	1    8400 4725
 	1    0    0    -1  
 $EndComp
 $Comp
 L droneoscillator-rescue:CP_Small C15
 U 1 1 5B2C2235
-P 8900 4800
-F 0 "C15" H 8900 4650 50  0000 L CNN
-F 1 "10u" H 8850 5050 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 8900 4800 50  0001 C CNN
-F 3 "" H 8900 4800 50  0001 C CNN
-	1    8900 4800
+P 8900 4825
+F 0 "C15" H 8900 4675 50  0000 L CNN
+F 1 "10u" H 8850 5075 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 8900 4825 50  0001 C CNN
+F 3 "" H 8900 4825 50  0001 C CNN
+	1    8900 4825
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -807,12 +807,10 @@ Wire Wire Line
 Wire Wire Line
 	9400 4800 9500 4800
 Wire Wire Line
-	8400 4800 8400 4950
+	8400 4825 8400 4950
 Connection ~ 9400 4950
-Connection ~ 8900 4700
-Connection ~ 8400 4600
 Wire Wire Line
-	8900 4950 8900 4900
+	8900 4950 8900 4925
 Connection ~ 8900 4950
 Wire Wire Line
 	4100 4900 4100 4950
@@ -1131,8 +1129,40 @@ F 3 "" H 10050 1950 50  0001 C CNN
 	1    10050 1950
 	0    -1   -1   0   
 $EndComp
+$Comp
+L droneoscillator-rescue:R_Small R12
+U 1 1 5C5321D3
+P 9200 4600
+F 0 "R12" H 9230 4620 50  0000 L CNN
+F 1 "10R" H 9230 4560 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9200 4600 50  0001 C CNN
+F 3 "" H 9200 4600 50  0001 C CNN
+	1    9200 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L droneoscillator-rescue:R_Small R13
+U 1 1 5C53254E
+P 9200 4700
+F 0 "R13" H 9230 4720 50  0000 L CNN
+F 1 "10R" H 9230 4660 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9200 4700 50  0001 C CNN
+F 3 "" H 9200 4700 50  0001 C CNN
+	1    9200 4700
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	8400 4600 9500 4600
+	9500 4600 9300 4600
 Wire Wire Line
-	8900 4700 9500 4700
+	9100 4600 8400 4600
+Connection ~ 8400 4600
+Wire Wire Line
+	8400 4600 8400 4625
+Wire Wire Line
+	9300 4700 9500 4700
+Wire Wire Line
+	9100 4700 8900 4700
+Connection ~ 8900 4700
+Wire Wire Line
+	8900 4700 8900 4725
 $EndSCHEMATC
