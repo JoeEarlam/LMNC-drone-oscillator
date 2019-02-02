@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 0.75)
     (trace_clearance 0.2)
@@ -64,7 +64,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010f0_80000001)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Gerbers/"))
+      (outputdirectory "../../../../gerbers/LMNC/"))
   )
 
   (net 0 "")
@@ -3212,7 +3212,7 @@
   (gr_text GND (at 151.25 148.972) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_text "Look Mum No Computer's\nReverse Avalanche Oscillator\nAdapted by Joe Earlam" (at 155.448 107.442 90) (layer F.SilkS)
+  (gr_text "Look Mum No Computer's\nReverse Avalanche Oscillator\nAdapted by Joe Earlam\nRev 1 [fe7935a]" (at 155.194 107.442 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
 
@@ -3398,7 +3398,7 @@
   (segment (start 155.027 144.526) (end 155.027 141.184) (width 0.5) (layer B.Cu) (net 33))
   (segment (start 155.027 141.184) (end 154.305 140.462) (width 0.5) (layer B.Cu) (net 33))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5B2B9858) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5C55AF19) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3873,7 +3873,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5B2B981E) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C55AF16) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
