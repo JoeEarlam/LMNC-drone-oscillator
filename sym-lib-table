@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name droneoscillator-rescue)(type Legacy)(uri ${KIPRJMOD}/droneoscillator-rescue.lib)(options "")(descr ""))
+  (lib (name droneoscillator-cache)(type Legacy)(uri ${KIPRJMOD}/droneoscillator-cache.lib)(options "")(descr ""))
 )
