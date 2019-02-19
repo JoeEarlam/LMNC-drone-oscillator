@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.2)-1")
 
   (general
     (thickness 1.6)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 0.75)
     (trace_clearance 0.2)
@@ -1449,7 +1449,7 @@
     (at 141.605 120.999 90)
     (descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
-    (path /5B2C0B2C)
+    (path /5C6C7309)
     (fp_text reference Q4 (at -1.778 -0.127 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1488,7 +1488,7 @@
     (at 141.732 97.191 90)
     (descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
-    (path /5B2B7643)
+    (path /5C6C7285)
     (fp_text reference Q3 (at -1.651 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1527,7 +1527,7 @@
     (at 141.732 75.96 90)
     (descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
-    (path /5B2B7413)
+    (path /5C6C6EE0)
     (fp_text reference Q2 (at -2.159 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )

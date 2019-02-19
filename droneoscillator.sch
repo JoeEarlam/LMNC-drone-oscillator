@@ -22,6 +22,7 @@ F 0 "Q1" H 2850 2325 50  0000 L CNN
 F 1 "BC337" H 2850 2250 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2850 2175 50  0001 L CIN
 F 3 "" H 2650 2250 50  0001 L CNN
+F 4 "Cut middle leg flush with case" H 2650 2250 50  0001 C CNN "Notes"
 	1    2650 2250
 	1    0    0    1   
 $EndComp
@@ -94,17 +95,6 @@ F 3 "" H 2150 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L droneoscillator-rescue:BC337 Q2
-U 1 1 5B2B7413
-P 5000 2250
-F 0 "Q2" H 5200 2325 50  0000 L CNN
-F 1 "BC337" H 5200 2250 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5200 2175 50  0001 L CIN
-F 3 "" H 5000 2250 50  0001 L CNN
-	1    5000 2250
-	1    0    0    1   
-$EndComp
-$Comp
 L droneoscillator-rescue:R_Small R7
 U 1 1 5B2B7419
 P 5100 1400
@@ -169,17 +159,6 @@ F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 4500 2250 50  0001 C CNN
 F 3 "" H 4500 2250 50  0001 C CNN
 	1    4500 2250
 	1    0    0    -1  
-$EndComp
-$Comp
-L droneoscillator-rescue:BC337 Q3
-U 1 1 5B2B7643
-P 7150 2250
-F 0 "Q3" H 7350 2325 50  0000 L CNN
-F 1 "BC337" H 7350 2250 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 7350 2175 50  0001 L CIN
-F 3 "" H 7150 2250 50  0001 L CNN
-	1    7150 2250
-	1    0    0    1   
 $EndComp
 $Comp
 L droneoscillator-rescue:R_Small R8
@@ -469,17 +448,6 @@ F 3 "" H 3300 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L droneoscillator-rescue:BC337 Q4
-U 1 1 5B2C0B2C
-P 9350 2250
-F 0 "Q4" H 9550 2325 50  0000 L CNN
-F 1 "BC337" H 9550 2250 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 9550 2175 50  0001 L CIN
-F 3 "" H 9350 2250 50  0001 L CNN
-	1    9350 2250
-	1    0    0    1   
-$EndComp
-$Comp
 L droneoscillator-rescue:R_Small R10
 U 1 1 5B2C0B32
 P 9450 1400
@@ -601,6 +569,7 @@ F 0 "C15" H 8975 4800 50  0000 L CNN
 F 1 "10u" H 8975 4900 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 8900 4825 50  0001 C CNN
 F 3 "" H 8900 4825 50  0001 C CNN
+F 4 "<6mm height required" H 8900 4825 50  0001 C CNN "Notes"
 	1    8900 4825
 	-1   0    0    1   
 $EndComp
@@ -1165,4 +1134,40 @@ Wire Wire Line
 	2850 4950 3100 4950
 Wire Wire Line
 	3100 4950 3100 5150
+$Comp
+L droneoscillator-rescue:BC337 Q2
+U 1 1 5C6C6EE0
+P 5000 2250
+F 0 "Q2" H 5200 2325 50  0000 L CNN
+F 1 "BC337" H 5200 2250 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5200 2175 50  0001 L CIN
+F 3 "" H 5000 2250 50  0001 L CNN
+F 4 "Cut middle leg flush with case" H 5000 2250 50  0001 C CNN "Notes"
+	1    5000 2250
+	1    0    0    1   
+$EndComp
+$Comp
+L droneoscillator-rescue:BC337 Q3
+U 1 1 5C6C7285
+P 7150 2250
+F 0 "Q3" H 7350 2325 50  0000 L CNN
+F 1 "BC337" H 7350 2250 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 7350 2175 50  0001 L CIN
+F 3 "" H 7150 2250 50  0001 L CNN
+F 4 "Cut middle leg flush with case" H 7150 2250 50  0001 C CNN "Notes"
+	1    7150 2250
+	1    0    0    1   
+$EndComp
+$Comp
+L droneoscillator-rescue:BC337 Q4
+U 1 1 5C6C7309
+P 9350 2250
+F 0 "Q4" H 9550 2325 50  0000 L CNN
+F 1 "BC337" H 9550 2250 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 9550 2175 50  0001 L CIN
+F 3 "" H 9350 2250 50  0001 L CNN
+F 4 "Cut middle leg flush with case" H 9350 2250 50  0001 C CNN "Notes"
+	1    9350 2250
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
