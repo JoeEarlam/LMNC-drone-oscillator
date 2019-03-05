@@ -47,6 +47,7 @@ F 0 "RV1" H 2625 1725 50  0000 C CNN
 F 1 "50K" H 2625 1800 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal" H 2750 1750 50  0001 C CNN
 F 3 "" H 2750 1750 50  0001 C CNN
+F 4 "Alps RK097 series or equivalent" H 2750 1750 50  0001 C CNN "Notes"
 	1    2750 1750
 	1    0    0    1   
 $EndComp
@@ -66,7 +67,7 @@ L droneoscillator-rescue:LED D1
 U 1 1 5B23B84C
 P 2750 2700
 F 0 "D1" V 2800 2550 50  0000 C CNN
-F 1 "Red" V 2700 2550 50  0000 C CNN
+F 1 "5mm red" V 2700 2550 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 2750 2700 50  0001 C CNN
 F 3 "" H 2750 2700 50  0001 C CNN
 	1    2750 2700
@@ -113,6 +114,7 @@ F 0 "RV3" H 7100 1800 50  0000 C CNN
 F 1 "50K" H 7100 1700 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal" H 7250 1750 50  0001 C CNN
 F 3 "" H 7250 1750 50  0001 C CNN
+F 4 "Alps RK097 series or equivalent" H 7250 1750 50  0001 C CNN "Notes"
 	1    7250 1750
 	1    0    0    1   
 $EndComp
@@ -132,7 +134,7 @@ L droneoscillator-rescue:LED D2
 U 1 1 5B2B7432
 P 5100 2700
 F 0 "D2" H 5100 2800 50  0000 C CNN
-F 1 "Red" H 5100 2600 50  0000 C CNN
+F 1 "5mm red" H 5100 2600 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 5100 2700 50  0001 C CNN
 F 3 "" H 5100 2700 50  0001 C CNN
 	1    5100 2700
@@ -179,6 +181,7 @@ F 0 "RV4" H 9300 1800 50  0000 C CNN
 F 1 "50K" H 9300 1700 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal" H 9450 1750 50  0001 C CNN
 F 3 "" H 9450 1750 50  0001 C CNN
+F 4 "Alps RK097 series or equivalent" H 9450 1750 50  0001 C CNN "Notes"
 	1    9450 1750
 	1    0    0    1   
 $EndComp
@@ -198,7 +201,7 @@ L droneoscillator-rescue:LED D3
 U 1 1 5B2B7662
 P 7250 2700
 F 0 "D3" V 7300 2500 50  0000 C CNN
-F 1 "Red" V 7200 2500 50  0000 C CNN
+F 1 "5mm red" V 7200 2500 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 7250 2700 50  0001 C CNN
 F 3 "" H 7250 2700 50  0001 C CNN
 	1    7250 2700
@@ -367,6 +370,7 @@ F 0 "RV2" H 4950 1725 50  0000 C CNN
 F 1 "50K" H 4950 1800 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal" H 5100 1750 50  0001 C CNN
 F 3 "" H 5100 1750 50  0001 C CNN
+F 4 "Alps RK097 series or equivalent" H 5100 1750 50  0001 C CNN "Notes"
 	1    5100 1750
 	1    0    0    1   
 $EndComp
@@ -389,6 +393,7 @@ F 0 "U1" H 2250 5350 50  0000 L CNN
 F 1 "NE5532" H 2250 4950 50  0000 L CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 2250 5150 50  0001 C CNN
 F 3 "" H 2250 5150 50  0001 C CNN
+F 4 "Can be subsituted for other standard dual op-amp (TL074, LM358, RC4580 etc)" H 2250 5150 50  0001 C CNN "Notes"
 	2    2250 5150
 	1    0    0    -1  
 $EndComp
@@ -419,7 +424,7 @@ L droneoscillator-rescue:Conn_01x02 J1
 U 1 1 5B2BD62B
 P 5250 5350
 F 0 "J1" H 5250 5450 50  0000 C CNN
-F 1 "JST_XH_2" H 5250 5150 50  0000 C CNN
+F 1 "NF" H 5250 5150 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" H 5250 5350 50  0001 C CNN
 F 3 "" H 5250 5350 50  0001 C CNN
 	1    5250 5350
@@ -485,7 +490,7 @@ L droneoscillator-rescue:LED D4
 U 1 1 5B2C0B4B
 P 9450 2700
 F 0 "D4" V 9500 2550 50  0000 C CNN
-F 1 "Red" V 9400 2550 50  0000 C CNN
+F 1 "5mm red" V 9400 2550 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 9450 2700 50  0001 C CNN
 F 3 "" H 9450 2700 50  0001 C CNN
 	1    9450 2700
